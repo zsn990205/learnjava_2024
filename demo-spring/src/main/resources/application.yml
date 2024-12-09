@@ -1,0 +1,34 @@
+server:
+  port: 8080
+
+#数据库相关配置
+#spring:
+#  datasource:
+#    url: jdbc:mysql://127.0.0.1:3306/testdb?characterEncoding=utf8&useSSL=false
+#    username: root
+#    password: rootroot
+
+demo:
+  key: hello.yml
+  key2: hello2
+  key3:
+
+String:
+  str1: hello \n spring boot.
+  str2: 'hello \n spring boot.'
+  str3: "hello \n spring boot."
+
+student:
+  id: 1
+  name: zhangsan
+  age: 18
+
+dbtypes:
+  name:
+    - mysql
+    - sqlserver
+    - db2
+  map:
+    k1: key1
+    k2: key2
+    k3: key3
