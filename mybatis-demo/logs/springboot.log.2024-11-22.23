@@ -1,0 +1,10 @@
+2024-11-22 20:05:41.296  INFO 2772 --- [main] c.bit.demo.mapper.UserInfoXMLMapperTest  : 自增的结果是: 16
+2024-11-22 20:05:41.337  INFO 2772 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-11-22 20:05:41.351  INFO 2772 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-11-22 20:12:30.468  INFO 9476 --- [main] c.bit.demo.mapper.UserInfoXMLMapperTest  : Starting UserInfoXMLMapperTest using Java 1.8.0_192 on LAPTOP-MTK1KLL2 with PID 9476 (started by 77467 in E:\learn_java2024\mybatis-demo)
+2024-11-22 20:12:30.499  INFO 9476 --- [main] c.bit.demo.mapper.UserInfoXMLMapperTest  : The following 1 profile is active: "dev"
+2024-11-22 20:12:32.365  INFO 9476 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-11-22 20:12:32.617  INFO 9476 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-11-22 20:12:32.884  WARN 9476 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\learn_java2024\mybatis-demo\target\classes\mapper\UserInfoXMLMapper.xml]'
+2024-11-22 20:12:32.884  INFO 9476 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-11-22 20:12:32.886  INFO 9476 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

@@ -1,0 +1,8 @@
+2024-11-22 15:23:18.677  INFO 4644 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-11-22 15:23:18.699  INFO 4644 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-11-22 15:23:58.052  INFO 8084 --- [main] com.bit.demo.mapper.UserInfoMapTest   : Starting UserInfoMapperTest using Java 1.8.0_192 on LAPTOP-MTK1KLL2 with PID 8084 (started by 77467 in E:\learn_java2024\mybatis-demo)
+2024-11-22 15:23:58.053  INFO 8084 --- [main] com.bit.demo.mapper.UserInfoMapTest   : The following 1 profile is active: "dev"
+2024-11-22 15:24:00.014  INFO 8084 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-11-22 15:24:00.266  INFO 8084 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-11-22 15:24:00.642  INFO 8084 --- [main] com.bit.demo.mapper.UserInfoMapTest   : Started UserInfoMapperTest in 3.155 seconds (JVM running for 4.397)
+2024-11-22 15:24:01.317  INFO 8084 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...

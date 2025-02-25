@@ -1,0 +1,7 @@
+2024-11-25 20:19:02.202  INFO 18116 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-11-25 20:20:05.234  INFO 10040 --- [main] c.b.demo.mapper.UserInfoXMLMapper2Test   : Starting UserInfoXMLMapper2Test using Java 1.8.0_192 on LAPTOP-MTK1KLL2 with PID 10040 (started by 77467 in E:\learn_java2024\mybatis-demo)
+2024-11-25 20:20:05.235  INFO 10040 --- [main] c.b.demo.mapper.UserInfoXMLMapper2Test   : The following 1 profile is active: "dev"
+2024-11-25 20:20:07.107  INFO 10040 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-11-25 20:20:07.364  INFO 10040 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-11-25 20:20:07.856  INFO 10040 --- [main] c.b.demo.mapper.UserInfoXMLMapper2Test   : Started UserInfoXMLMapper2Test in 3.079 seconds (JVM running for 4.381)
+2024-11-25 20:20:08.541  INFO 10040 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...

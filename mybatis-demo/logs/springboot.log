@@ -1,0 +1,1 @@
+2024-11-25 20:29:18.548  INFO 13112 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
