@@ -1,0 +1,30 @@
+2024-11-26 11:14:12.917  WARN 17964 --- [main] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [logback-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2024-11-26 11:14:12.931  INFO 17964 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-11-26 11:14:12.988 ERROR 17964 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-11-26 11:39:57.691  INFO 9744 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 1.8.0_192 on LAPTOP-MTK1KLL2 with PID 9744 (E:\learn_java2024\spring-boot\target\classes started by 77467 in E:\learn_java2024\spring-boot)
+2024-11-26 11:39:57.704 DEBUG 9744 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.7.17, Spring v5.3.30
+2024-11-26 11:39:57.704  INFO 9744 --- [main] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"

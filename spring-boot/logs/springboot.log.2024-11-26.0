@@ -1,0 +1,7 @@
+2024-11-26 11:14:09.285  INFO 17964 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 1.8.0_192 on LAPTOP-MTK1KLL2 with PID 17964 (E:\learn_java2024\spring-boot\target\classes started by 77467 in E:\learn_java2024\spring-boot)
+2024-11-26 11:14:09.288 DEBUG 17964 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.7.17, Spring v5.3.30
+2024-11-26 11:14:09.289  INFO 17964 --- [main] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2024-11-26 11:14:11.629  INFO 17964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-11-26 11:14:11.641  INFO 17964 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-26 11:14:11.641  INFO 17964 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-11-26 11:14:11.825  INFO 17964 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext

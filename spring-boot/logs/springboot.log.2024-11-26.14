@@ -1,0 +1,8 @@
+2024-11-26 11:52:26.708  INFO 7900 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2475 ms
+2024-11-26 11:52:26.853  INFO 7900 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-11-26 11:52:27.083  INFO 7900 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-11-26 11:52:27.626  INFO 7900 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-26 11:52:27.900  INFO 7900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-26 11:52:27.918  INFO 7900 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 4.652 seconds (JVM running for 5.533)
+2024-11-26 11:52:40.081  INFO 7900 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 11:52:40.082  INFO 7900 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
