@@ -1,0 +1,8 @@
+2024-11-28 22:17:24.347  INFO 26468 --- [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-28 22:17:24.349  INFO 26468 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-28 22:17:24.350  INFO 26468 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-11-28 22:17:24.368  INFO 26468 --- [http-nio-8080-exec-5] c.b.book.interceptor.LoginInterceptor    : 目标方法执行前
+2024-11-28 22:17:24.807  INFO 26468 --- [http-nio-8080-exec-5] c.b.book.interceptor.LoginInterceptor    : 目标方法执行后
+2024-11-28 22:17:24.875  INFO 26468 --- [http-nio-8080-exec-6] c.b.book.interceptor.LoginInterceptor    : 目标方法执行前
+2024-11-28 22:17:24.885  INFO 26468 --- [http-nio-8080-exec-6] com.bite.book.controller.BookController  : 查询翻页信息,pageRequest:PageRequest(currentPage=1, pageSize=10, offset=0)
+2024-11-28 22:17:24.993  INFO 26468 --- [http-nio-8080-exec-6] c.b.book.interceptor.LoginInterceptor    : 目标方法执行后

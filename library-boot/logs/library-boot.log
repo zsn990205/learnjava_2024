@@ -1,0 +1,7 @@
+2024-12-02 20:17:54.578  INFO 15580 --- [http-nio-8080-exec-1] c.b.book.interceptor.LoginInterceptor    : 目标方法执行前
+2024-12-02 20:18:01.118  INFO 15580 --- [http-nio-8080-exec-3] c.b.book.interceptor.LoginInterceptor    : 目标方法执行前
+2024-12-02 20:18:22.907  INFO 15580 --- [http-nio-8080-exec-4] c.b.book.interceptor.LoginInterceptor    : 目标方法执行前
+2024-12-02 20:18:29.744  INFO 15580 --- [http-nio-8080-exec-5] c.b.book.interceptor.LoginInterceptor    : 目标方法执行前
+2024-12-02 20:18:40.365  INFO 15580 --- [http-nio-8080-exec-6] c.b.book.interceptor.LoginInterceptor    : 目标方法执行前
+2024-12-02 20:18:45.106  INFO 15580 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-12-02 20:18:45.107  INFO 15580 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

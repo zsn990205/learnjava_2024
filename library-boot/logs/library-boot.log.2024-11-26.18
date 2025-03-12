@@ -1,0 +1,8 @@
+2024-11-26 20:12:18.524  INFO 4536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-11-26 20:12:18.634  INFO 4536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-26 20:12:18.635  INFO 4536 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-11-26 20:12:18.830  INFO 4536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-26 20:12:18.830  INFO 4536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1829 ms
+2024-11-26 20:12:18.942  INFO 4536 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-11-26 20:12:19.097  INFO 4536 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-11-26 20:12:19.766  INFO 4536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''

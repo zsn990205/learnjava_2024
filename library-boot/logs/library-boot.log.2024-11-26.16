@@ -1,0 +1,9 @@
+2024-11-26 20:09:56.676  INFO 22036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-11-26 20:09:56.700  INFO 22036 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-26 20:09:56.701  INFO 22036 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-11-26 20:09:56.911  INFO 22036 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-26 20:09:56.911  INFO 22036 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1987 ms
+2024-11-26 20:09:57.021  INFO 22036 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-11-26 20:09:57.206  INFO 22036 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-11-26 20:09:57.987  INFO 22036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-26 20:09:58.002  INFO 22036 --- [main] com.bite.book.DemoApplication            : Started DemoApplication in 3.678 seconds (JVM running for 4.337)

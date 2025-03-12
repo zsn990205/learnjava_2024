@@ -1,0 +1,8 @@
+2024-12-02 20:14:46.806  INFO 12628 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 1.8.0_192 on LAPTOP-MTK1KLL2 with PID 12628 (E:\learn_java2024\library-boot\target\classes started by 77467 in E:\learn_java2024\library-boot)
+2024-12-02 20:14:46.822  INFO 12628 --- [main] com.bite.book.DemoApplication            : The following 1 profile is active: "dev"
+2024-12-02 20:14:49.747  INFO 12628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-12-02 20:14:49.758  INFO 12628 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-02 20:14:49.759  INFO 12628 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-12-02 20:14:49.995  INFO 12628 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-02 20:14:49.995  INFO 12628 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3018 ms
+2024-12-02 20:14:50.125  INFO 12628 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource

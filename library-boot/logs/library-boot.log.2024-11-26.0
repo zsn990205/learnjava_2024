@@ -1,0 +1,7 @@
+2024-11-26 13:53:20.032  INFO 11600 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 1.8.0_192 on LAPTOP-MTK1KLL2 with PID 11600 (E:\learn_java2024\library-boot\target\classes started by 77467 in E:\learn_java2024\library-boot)
+2024-11-26 13:53:20.036  INFO 11600 --- [main] com.bite.book.DemoApplication            : The following 1 profile is active: "dev"
+2024-11-26 13:53:23.078  INFO 11600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-11-26 13:53:23.093  INFO 11600 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-26 13:53:23.094  INFO 11600 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-11-26 13:53:23.358  INFO 11600 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-26 13:53:23.359  INFO 11600 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3206 ms

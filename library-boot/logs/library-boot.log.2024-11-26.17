@@ -1,0 +1,8 @@
+2024-11-26 20:10:33.870  INFO 22036 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 20:10:33.872  INFO 22036 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-26 20:10:33.873  INFO 22036 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-11-26 20:10:34.092  INFO 22036 --- [http-nio-8080-exec-1] com.bite.book.controller.BookController  : 查询翻页信息,pageRequest:PageRequest(currentPage=1, pageSize=10, offset=0)
+2024-11-26 20:12:09.702  INFO 22036 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-11-26 20:12:09.711  INFO 22036 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-11-26 20:12:16.952  INFO 4536 --- [main] com.bite.book.DemoApplication            : Starting DemoApplication using Java 1.8.0_192 on LAPTOP-MTK1KLL2 with PID 4536 (E:\learn_java2024\library-boot\target\classes started by 77467 in E:\learn_java2024\library-boot)
+2024-11-26 20:12:16.955  INFO 4536 --- [main] com.bite.book.DemoApplication            : The following 1 profile is active: "dev"
