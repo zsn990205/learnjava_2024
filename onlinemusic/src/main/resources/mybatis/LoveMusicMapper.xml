@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.onlinemusic.mapper.LoveMusicMapper">
+
+    <select id="findLoveMusic" resultType="com.example.onlinemusic.model.Music">
+        select * from lovemusic where user_id = #{userId} and music_id = #{musicId};
+    </select>
+
+    <insert id="insertLoveMusic">
+        insert into lovemusic(user_id,music_id) values(#{userId},#{musicId});
+    </insert>
+
+    <select id="findLoveMusicByUserId" resultType="com.example.onlinemusic.model.Music">
+        select music.* from lovemusic,music where music.id = lovemusic.music_id and
+        lovemusic.user_id=#{userId};
+    </select>
+
+    <select id="findLoveMusicByKeyAndUId" resultType="com.example.onlinemusic.model.Music">
+        select music.* from lovemusic, music where music.id = lovemusic.music_id and lovemusic.user_id=#{userId} and title like
+        concat('%',#{musicName},'%');
+    </select>
+
+    <delete id="deleteLoveMusic" parameterType="java.lang.Integer">
+        delete from lovemusic where user_id = #{userId} and music_id = #{musicId};
+    </delete>
+
+    <delete id="deleteLoveMusicByMusicId" parameterType="java.lang.Integer">
+        delete from lovemusic where music_id = #{musicId};
+    </delete>
+</mapper>
